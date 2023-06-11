@@ -12,7 +12,7 @@ fi
 temp_folder=$(mktemp -d)
 
 # Generate the SVG files
-sizes=("48x48" "72x72" "96x96" "144x144" "192x192" "256x256" "384x384" "512x512")
+sizes=("48x48" "72x72" "96x96" "128x128" "144x144" "152x152" "192x192" "256x256" "384x384" "512x512")
 
 for size in "${sizes[@]}"; do
   # Extract the width and height values from the size
